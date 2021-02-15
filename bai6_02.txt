@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let num= parseFloat(prompt('Enter a number: '));
+    function isPositiveInt(a) {
+        return result=(a>0)? true:false;
+    }alert(isPositiveInt(num))
+</script>

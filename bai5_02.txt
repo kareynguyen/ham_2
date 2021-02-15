@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let num1= parseFloat(prompt('Enter a: '));
+    let num2= parseFloat(prompt('Enter b: '));
+    let num3= parseFloat(prompt('Enter c: '));
+
+    function findMin(a, b, c) {
+        return min=(a<b && a<c)?a:((b<c)? b:c)
+    }alert(findMin(num1, num2, num3))
+</script>

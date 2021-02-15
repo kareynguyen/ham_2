@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+<button id="btn" onclick="changeValue()">Change</button>
+</body>
+</html>
+<script>
+function changeValue(){
+    let num=parseFloat(prompt('Enter a number'));
+    let plus=num + 1;
+    document.getElementById('btn').innerHTML=plus;
+}
+</script>

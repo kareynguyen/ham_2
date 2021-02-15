@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let num1 = parseFloat(prompt('Enter the first number: '));
+    let num2 = parseFloat(prompt('Enter the second number: '));
+    function sumIf(a, b) {
+        return result = (a > b) ?a+" lớn hơn "+ b : a + b;
+    }alert(sumIf(num1,num2))
+</script>

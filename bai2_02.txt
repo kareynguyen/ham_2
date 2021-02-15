@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+//     let radius=parseFloat(prompt('Enter radius: '))
+// function areaOfCircle(a){
+//         const PI=3.14;
+//     let result=a*a*PI;
+//     return result;
+// }alert(areaOfCircle(radius))
+
+    let radius=parseFloat(prompt('Enter radius: '))
+    function circumferenceOfCircle(a){
+        const PI=3.14;
+        let result=2*a*PI;
+        return result;
+    }alert(circumferenceOfCircle(radius))
+</script>

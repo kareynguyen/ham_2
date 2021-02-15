@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+for (let i=2; i<=100; i++){
+    if (isPrimeNumber(i)){
+        console.log(i);
+}
+}
+    function isPrimeNumber(num){
+        for(let i = 2; i <= Math.sqrt(num); i++){
+            if(num % i == 0){
+                return false;
+            }
+        }return true;
+    }
+</script>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let num=parseFloat(prompt('Enter a number: '))
+function square(a){
+    let result=a*a;
+    return result;
+}alert(square(num))
+</script>

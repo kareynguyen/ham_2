@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+  let arr2 = [4, 23, 'a', 7, 'xyz', 7, false, 9]
+
+  function countAppearanceTime(arr, b){
+      let count=0;
+      for (let i=0; i< arr.length; i++){
+          if (b==arr[i]){
+              count++
+          }
+      }return output = (count>0)? count:-1
+  }alert(countAppearanceTime(arr2,'a'))
+
+</script>

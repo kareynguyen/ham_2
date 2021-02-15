@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let num=parseFloat(prompt('Enter a number: '))
+    function doFactorial(a){
+        let factorial=1
+        for (let i=1;i<=num;i++){
+            factorial=factorial*i;
+        }return factorial;
+    }alert(doFactorial(num))
+</script>

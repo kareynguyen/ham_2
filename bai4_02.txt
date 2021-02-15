@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let input = prompt('Enter something: ');
+
+    function isNumber(n) {
+        return !isNaN(parseFloat(n))
+    }
+
+    alert(isNumber(input))
+</script>
